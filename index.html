@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Sentiment Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Advanced Sentiment Analysis</h1>
+        <p>Paste your text below to get a detailed sentiment and emotion analysis.</p>
+        
+        <textarea id="text-input" placeholder="Enter text here..."></textarea>
+        <button id="analyze-button">Analyze Text</button>
+        
+        <div id="results-area" class="hidden">
+            <div class="result-box">
+                <h2>Overall Sentiment</h2>
+                <p id="sentiment-result"></p>
+            </div>
+
+            <div class="result-box">
+                <h2>Emotion Breakdown</h2>
+                <div id="emotion-list"></div>
+            </div>
+
+            <div class="result-box">
+                <h2>Emotion Graph</h2>
+                <img id="graph-image" src="" alt="Emotion Analysis Graph">
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
